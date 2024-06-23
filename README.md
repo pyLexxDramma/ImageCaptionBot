@@ -128,6 +128,8 @@ def message_reply(message):
     # а потом картинку с текстом
     bot.send_photo(message.chat.id, photo=image)
 ```
-4. Картинка добавилась. Всё работает!
+4. Проверяем результат
+
    ![image](https://github.com/eshmargunov/image_telebot/assets/12861849/9ed2a410-4929-47ec-8e9d-f32c64e41a2f)
 
+Картинка добавилась. Всё работает!
