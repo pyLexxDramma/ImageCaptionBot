@@ -3,7 +3,10 @@
 
 ## Этап 1. Создание бота
 Для начала создадим бота, который будем с нами здороваться на команду `/start`
+![image_telebot – README md](https://github.com/eshmargunov/image_telebot/assets/12861849/21106bb0-d294-4d30-8e22-90b1d4579565)
+
 ```python
+
 import os
 from telebot import TeleBot
 
@@ -22,6 +25,7 @@ def start_message(message):
 bot.infinity_polling(skip_pending=True)
 ```
 Бот работает. Теперь можно приступать к работе с изображениями.
+![image_telebot – main py](https://github.com/eshmargunov/image_telebot/assets/12861849/0a882456-f4b5-4c8b-bfeb-14be1aee3bd3)
 
 
 ## Этап 2. Получение изображения и сохранение его на компьютер
